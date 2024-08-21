@@ -164,19 +164,13 @@ Blame and Annotate: Tools like git blame allow you to see which commit last modi
 Branching in Git is a powerful feature that allows multiple versions of a project to be developed in parallel. In a collaborative development environment, such as GitHub, branching enables developers to work on different features, bug fixes, or experiments independently without affecting the main (or production) codebase.
 
 **How Branching Works**
->>Main Branch (Usually main or master):
-This is the central branch in most Git repositories. It typically holds the stable, production-ready code.
->>Creating Branches
-A branch is essentially a pointer to a specific commit. When you create a new branch, it diverges from the commit history of the branch it was created from. This allows you to develop a feature or fix in isolation from the main codebase.
->>Using Branches
-Once a branch is created, you can switch between branches.
->>Merging Branches
-After completing work on a branch, you’ll want to merge it back into the main branch. There are a couple of ways to do this:
+>>Main Branch: (Usually main or master):This is the central branch in most Git repositories. It typically holds the stable, production-ready code.
+>>Creating Branches: A branch is essentially a pointer to a specific commit. When you create a new branch, it diverges from the commit history of the branch it was created from. This allows you to develop a feature or fix in isolation from the main codebase.
+>>Using Branches: Once a branch is created, you can switch between branches.
+>>Merging Branches: After completing work on a branch, you’ll want to merge it back into the main branch. There are a couple of ways to do this:
 Fast-forward merge: If no new commits have been made to the main branch since the feature branch was created.
->>Pull Requests (GitHub-specific):
-In GitHub, the collaboration process typically includes submitting a Pull Request (PR) when a developer wants to merge their feature branch into the main branch. This gives other team members the opportunity to review the code before it is merged.
->>Deleting Branches:
-Once a branch has been merged and is no longer needed, it can be deleted to keep the repository clean.
+>>Pull Requests: In GitHub, the collaboration process typically includes submitting a Pull Request (PR) when a developer wants to merge their feature branch into the main branch. This gives other team members the opportunity to review the code before it is merged.
+>>Deleting Branches: Once a branch has been merged and is no longer needed, it can be deleted to keep the repository clean.
 
 **Why Branching is Important for Collaborative Development**
 Parallel Development: Branching allows multiple developers to work on different features or bug fixes simultaneously without stepping on each other's toes. Each developer can have their own isolated environment.
